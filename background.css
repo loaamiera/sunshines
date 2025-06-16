@@ -1,0 +1,19 @@
+.placeholder{}
+
+html{
+    overflow: scroll ;
+    font-family: serif ;
+}
+
+
+.underline{
+    text-decoration: underline ;
+    display: inline-flex ;
+    flex-direction: column !important  ;
+}
+p{
+    line-height: 1.75 ;
+}
+dd{
+    max-width: 75% ;
+}

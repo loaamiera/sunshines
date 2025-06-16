@@ -1,0 +1,486 @@
+@media screen and ( max-width: 600px) { 
+    .center{
+        display : inline-flex;
+        float: center;
+        justify-content: center ;
+        margin: auto ;
+        vertical-align: middle;
+        justify-content: middle;
+    }
+    #wrapper{
+        background-color: white !important ;
+        min-height: 100px;
+        min-width: 150px ;
+        max-width: 600px ;
+        padding: 2em ;
+        float: center ; 
+        margin: auto ;
+        text-align: center ;
+    }
+    html{
+        background-color: lightblue;
+
+    }
+    h1, h2, h3{
+        text-align: center ;
+        margin: auto ;
+    }
+    header{
+        display: inline-flex;
+        flex-direction: column ;
+        vertical-align: middle;
+        justify-content: middle;
+        text-align: center ;
+        justify-content: center ;
+        margin: auto ;
+        max-width: 600px ;
+    }
+    main{
+        max-width: 600px ;
+        color: #9966FF ;
+    }
+    h1{
+        max-width: 600px ;
+        color: #666666 ; 
+        vertical-align: top;
+        justify-content: top;
+    }
+    h2, h3{
+        max-width: 600px ;
+        color: #666666 ; 
+        margin-top: 2% ;
+        float: center;
+        justify-content: center;
+        vertical-align: top;
+        justify-content: top;
+    }
+    h3{
+        max-height: 33% ;
+    }
+    body a:link {color: #9966FF ;}
+    body a:visited {color: #666666 ;}
+    body a:hover { color: #9966FF ;
+                inset: #333333 ; }
+    body{
+        display: inline-flex;
+        flex-direction: column ;
+    }
+    .colin{
+        font-size: 50em ;
+    }
+    .clear{
+        clear: both ;
+    }
+    footer{
+        display: inline-flex ;
+        max-width: 300px ;
+        margin: auto ;
+        text-align: center ;
+        color: white ;
+        background-color: #333333 ;
+        .foot{
+            padding-top: 10%;
+        }
+
+    }
+    .image{
+        display:block ;
+        width: 50% ;
+        height: 55% ;
+        align-items: center ;
+        float: right ;
+    }
+    footer a:link {color: white ;}
+    footer a:visited {color: white ;}
+    footer a:hover{color: #9966FF ;}
+
+    table{
+        color: #333333 ;
+        border-collapse: collapse ;
+        tr a:link{color: #333333 ;}
+        tr a:visited{color: #666666 ;}
+        tr a:hover{color: black ;}
+        td{
+            border-style: solid ;
+            border-width: 1px ;
+            border-color: #333333 ;
+            padding: 1px;
+        } ;
+        tr:nth-of-type(even) {
+            background-color:  lightblue ;
+
+        } ;
+        }
+    .column{
+        display: inline-flex ;
+        flex-direction: column ;
+    }
+    nav{
+        max-width: 600px;
+        display: inline-flex ;
+        flex-direction: row;
+        align-items: center ;
+        margin: auto ;
+        float: center;
+        text-align: center ;
+        ul{
+            list-style-type: none;
+            text-align: center ;
+            flex-direction: row;}
+            li a:link {color: #9966FF ;}
+            li a:visited {color: white ;}
+            li a:hover{color: white ; }
+            li{
+                width: 10px ;
+                padding: 4em ;
+                .button{
+                    border: solid ;
+                    border-width: 1.5px ;}
+                }
+    }
+
+    a{
+        text-decoration: none ;
+        font-style: none ;
+    }
+
+    form{
+        float: center ;
+        text-align: center ;
+    }
+    form{
+        padding: 50px ;
+        float: center ;
+    }
+    input{
+        overflow: scroll ;
+        align-items: right;
+    }
+
+    .row{
+        display: inline-flex ;
+        flex-direction: row ;
+    }
+    .largeImage{
+        max-height: 45% ;
+        max-width: 45% ;
+        display:block ;
+        float: center !important ;
+        justify-content: center;
+        margin: auto ;
+        text-align: center ;
+    }
+}
+
+
+@media only screen and (min-width: 600px) and (max-width: 1000px) {
+    .center{
+        display : grid;
+        align-items: center;
+        justify-content: center;
+        vertical-align: middle;
+        justify-content: middle;
+    }
+    #wrapper{
+        background-color: white !important ;
+        min-height: 200px;
+        min-width: 250px ;
+        max-width: 600px ;
+        padding: 1em ;
+        float: center ; 
+        margin: auto ;
+    }
+    html{
+        background-color: lightblue
+
+    }
+    h1, h2, h3{
+        margin-top: 2%;
+        text-align: center ;
+        vertical-align: top;
+        justify-content: top;
+        float: center;
+        justify-content: center;
+        max-width: 1000px ;
+    }
+    header{
+        display: inline-flex;
+        vertical-align: middle;
+        justify-content: middle;
+        text-align: center ;
+        justify-content: center ;
+        min-width: 600px ;
+        max-width: 1000px ;
+    }
+    main{
+        min-width: 600px ;
+        max-width: 1000px ;
+        color: #9966FF ;
+    }
+    body a:link {color: #9966FF ;}
+    body a:visited {color: #666666 ;}
+    body a:hover { color: #9966FF ;
+                inset: #333333 ; }
+    .colin{
+        font-size: 50em ;
+    }
+    .clear{
+        clear: both ;
+    }
+    footer{
+        max-width: 600px ;
+        padding-top: 2% ;
+        margin: auto ;
+        text-align: center ;
+        background-color: #333333 ;
+        .foot{
+            padding: 10%;
+        }
+        color: white ;
+
+    }
+    .image{
+        display:block ;
+        width: 100% ;
+        height: 100% ;
+        float: right ;
+        align-items: center ;
+    }
+    footer a:link {color: white ;}
+    footer a:visited {color: white ;}
+    footer a:hover{color: #9966FF ;}
+
+    table{
+        color: #333333 ;
+        border-collapse: collapse ;
+        tr a:link{color: #333333 ;}
+        tr a:visited{color: #666666 ;}
+        tr a:hover{color: black ;}
+        td{
+            border-style: solid ;
+            border-width: 1px ;
+            border-color: #333333 ;
+            padding: 1px;
+        } ;
+        tr:nth-of-type(even) {
+            background-color:  lightblue ;
+
+        } ;
+        }
+    .column{
+        display: inline-flex ;
+        flex-direction: column ;
+    }
+    nav{
+        min-width: 600px ;
+        max-width: 1000px ;
+        grid-column: 1 ; 
+        align-items: center ;
+        margin: auto ;
+        float: center;
+        text-align: center ;
+        ul{list-style-type: none;
+        text-align: center ;
+        display: inline-flex ;
+        flex-direction: row;}
+        li a:link {color: #9966FF ;}
+        li a:visited {color: white ;}
+        li a:hover{color: white ; }
+        li{
+            width: 20px ;
+            padding: 2em ;
+            .button{
+                border: solid ;
+                border-width: 2px ;
+            }
+        }
+    }
+    a{
+        text-decoration: none ;
+        font-style: none ;
+    }
+
+    form{
+        float: center ;
+        text-align: center ;
+        padding: 50px ;
+    }
+    input{
+        overflow: scroll ;
+        align-items: right;
+    }
+
+    .row{
+        display: inline-flex ;
+        flex-direction: row ;
+    }
+    .largeImage{
+        max-height: 15% ;
+        max-width: 15% ;
+        display:block ;
+        float: center !important ;
+        justify-content: center;
+        margin: auto ;
+        text-align: center ;
+    }
+}
+
+@media only screen and (min-width: 1000px) { 
+    .center{
+        display : grid;
+        align-items: center;
+        justify-content: center;
+        vertical-align: middle;
+        justify-content: middle;
+    }
+    #wrapper{
+        display: inline-flex;
+        background-color: white !important ;
+        min-height: 200px;
+        max-width: 1000px ;
+        padding: 2em ;
+        margin: auto ;
+        float:center ;
+        text-align: center ;
+    }
+    html{
+        background-color: lightblue
+
+    }
+    h1, h2, h3{
+        max-width: 1280px ;
+        text-align: center ;
+        float: center ;
+        justify-content: center;
+        margin-left: auto ;
+        margin-right: auto ;
+        margin-top: auto ;
+        margin-bottom: 2% ;
+        color: #666666 ; 
+    }
+    header{
+        text-align: center ;
+        margin: auto ;
+        float: center;
+        justify-content: center;
+
+    }
+    main{
+        color: #9966FF ;
+        display: inline-flex ;
+    }
+
+footer{
+        margin: auto ;
+        padding: 2% ;
+        max-width: 1000px ;
+        text-align: center ;
+        float: center ;
+        background-color: #333333 ;
+        color: white ;
+
+    } 
+
+    body a:link {color: #9966FF ;}
+    body a:visited {color: #666666 ;}
+    body a:hover { color: #9966FF ;
+                inset: #333333 ; }
+    .colin{
+        font-size: 50em ;
+        
+    }
+    .clear{
+        clear: both ;
+    }
+
+    .image{
+        display:block ;
+        width: 100% ;
+        height: 100% ;
+        float: right ;
+    }
+    footer a:link {color: white ;}
+    footer a:visited {color: white ;}
+    footer a:hover{color: #9966FF ;}
+
+    table{
+        color: #333333 ;
+        border-collapse: collapse ;
+        tr a:link{color: #333333 ;}
+        tr a:visited{color: #666666 ;}
+        tr a:hover{color: black ;}
+        td{
+            border-style: solid ;
+            border-width: 1px ;
+            border-color: #333333 ;
+            padding: 2px;
+        } ;
+        tr:nth-of-type(even) {
+            background-color:  lightblue ;
+
+        } ;
+        }
+    .column{
+        display: inline-flex ;
+        flex-direction: column ;
+    }
+    nav{
+        grid-column: 1 ; 
+        align-items: center ;
+        margin: auto ;
+        float: center;
+        text-align: center ;
+        ul{list-style-type: none;
+        text-align: center ;
+        display: inline-flex ;
+        flex-direction: row;}
+        li a:link {color: #9966FF ;}
+        li a:visited {color: white ;}
+        li a:hover{color: white ; }
+        li{
+            width: 40px ;
+            padding: 5em ;
+            .button{
+                border: solid ;
+                border-width: 4px ;
+                padding: 2px ;
+            }
+        }
+    }
+    a{
+        text-decoration: none ;
+        font-style: none ;
+    }
+
+    form{
+        float: center ;
+        text-align: center ;
+    }
+    form{
+        padding: 100px ;
+        float: center ;
+    }
+    input{
+        overflow: scroll ;
+        align-items: right;
+    }
+
+    .row{
+        display: inline-flex ;
+        flex-direction: row ;
+    }
+    .largeImage{
+        max-height: 10% ;
+        max-width: 10% ;
+        display:block ;
+        float: center !important ;
+        justify-content: center;
+        margin: auto ;
+        text-align: center ;
+    }
+}
+
+dt, dd {
+    text-align: center ;
+    margin: auto ;
+}
