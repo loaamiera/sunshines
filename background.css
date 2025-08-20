@@ -6,7 +6,7 @@ html{
 }
 dt{
     a{
-        color: white} 
+        color: blue ;} 
 }
 
 .underline{
@@ -21,3 +21,4 @@ dd{
     max-width: 75% ;
 
 }
+
