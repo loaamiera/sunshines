@@ -4,7 +4,10 @@ html{
     overflow: scroll ;
     font-family: serif ;
 }
-
+dt{
+    a{
+        color: white} 
+}
 
 .underline{
     text-decoration: underline ;
@@ -16,4 +19,5 @@ p{
 }
 dd{
     max-width: 75% ;
+
 }
